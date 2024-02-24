@@ -1,14 +1,35 @@
 ---
-title: "Introduction to Biomedical Data Science / Homework-1"
-author:
-date:
+title: Introduction to Biomedical Data Science / Homework-1
+author: Yiğitcan, (Kazuki) İlhan
+affilation: lover of coding and anime girls
+date: "`r Sys.Date()`"
 output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    number_sections: true
+    code_folding: show
+    theme: cerulean
 ---
 
-(Delete explanations below)
+I think that biology is an awesome field of research that so cool and exiting because of three main reasons.   
+### Reasons:  
 
-Add your three sentences here
+* Firstly,  **Biology**'s main topic is living things.  
 
-Add chunk-1
+* Secondly,  **Biology** is so simple and *complex* at the same time.  
 
-Add chunk-2
+* Lastly,  **Biology** can be used in ***every*** aspect of our life!  
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnl6YmxqMXZia21xejhnNThxYzA5d3JqZ2Uwb3k4ejZqeHhzeXB4aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y01jP8QeLOox2/giphy.gif)  
+```{r, eval=FALSE}
+# Two plus Two is four.
+print(2+2)
+# Minus 1 is three that is quick maths!
+print(4-1)
+```
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2xudm91ZndkeW56MzVyNGtja2Q5Ynhqdno1bGtpenBzcXh4cmVkbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/20Bvv1TR3tfDR1Lddj/giphy.gif){width="315" height="315"}  
+```{r}
+plot(pressure)
+```
